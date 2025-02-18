@@ -1,0 +1,23 @@
+:root {
+    --blanco: #ffffff;
+    --primario: #ee87fc;
+}
+
+header h1 {
+    background-color: var(--primario);
+    color: var(--blanco);
+    text-align: center;
+    font-size: 2.0rem;
+}
+
+button { 
+    background-color: var(--primario);
+    color: var(--blanco);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.6rem;
+    text-align: center;
+    border-width: 1px;
+}
+
